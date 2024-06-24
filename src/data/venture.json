@@ -1,0 +1,11 @@
+{
+  "ventures": [
+    {
+      "title": "Community Pursuit",
+      "photoFileLocation": "/logo-color.svg",
+      "mission": "To contribute technical and organizational services to projects, organizations, and initiatives that contribute to the well-being of a community.",
+      "summary": "I started Community Pursuit to practice my technical skills and apply them to community-centric projects.",
+      "link": "www.communitypursuit.com"
+    }
+  ]
+}

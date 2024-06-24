@@ -1,0 +1,176 @@
+{
+  "experiences": [
+    {
+      "type": "work",
+      "company": "Community Pursuit",
+      "title": "Owner",
+      "start": "2022",
+      "end": "",
+      "date": "2022 - present",
+      "summary": "I started my own business, called Community Pursuit, with the purpose of practicing web development and data analytic skills to support non-profit organizations and local governments. This has led to excellent learning opportunities, autonomy on project management and oversight, and discipline driven by determination.",
+      "accomplishments": [
+        "Designed, developed, and deployed WordPress website to communicate internal initiatives and stories with the community.",
+        "Integrated Airtable databases, dashboards, and automations with internal operations for project management and grant contract management.",
+        "Reconstructed a Greenhouse Gas Inventory Dashboard using public data sets with Tableau Prep and Tableau.",
+        "Incorporated digital tools into organizational operations for data collection, reporting, and analysis.",
+        "Build out 'plans of attack' for project management and control."
+      ]
+    },
+    {
+      "type": "education",
+      "company": "Dev-Island",
+      "title": "Student",
+      "start": "2022",
+      "end": "2023",
+      "date": "2022 - 2023",
+      "summary": "I was fortunate to study software development in an intense, and new, bootcamp. We ran through web development basics and moved to building interactive, mobile-friendly web applications using React.js.",
+      "accomplishments": [
+        "Designed and developed official website as capstone project using React.js.",
+        "Created a portfolio of projects using HTML, CSS, JavaScript, and React.js.",
+        "Utilized VSCode, github, and npm libraries to accomplish project creation and uploading.",
+        "Used Redux successfully in an app.",
+        "Learned to pull from APIs."
+      ]
+    },
+
+    {
+      "type": "work",
+      "company": "AmeriCorps | Office of Economic Development",
+      "title": "Data Visualization and Analysis Specialist",
+      "start": "2021",
+      "end": "2022",
+      "date": "2021 - 2022",
+      "summary": "I connected with state and local government offices and non-profits to track economic data relating to the impacts of COVID-19. I primarily used Tableau, but ventured into new tools as I took on new projects.",
+      "accomplishments": [
+        "Updated and troubleshot Tableau dashboards and workflows.",
+        "Set a naming convention for internal files.",
+        "Report on data usage and capacity within internal operations.",
+        "Clean, manipulate, analyze, and report on miscellaneous data sets.",
+        "Connect to and pull data from public agencies.",
+        "Meet with partner organizations and offer informational support for COVID relief initiatives."
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Various",
+      "title": "Nomad",
+      "start": "2019",
+      "end": "2021",
+      "date": "2019 - 2021",
+      "summary": "I spent time working abroad in various positions, practicing languages and exploring European countries. I spent time as an online English teacher; an in-person tutor; a bartender, DJ, and cleaner at hostels; and a German-Syrian restaurant cook. I was able to spend prolonged time in Paris, France, Sintra, Portugal, Zagreb, Croatia, and Munster, Germany.",
+      "accomplishments": [
+        "Learned and applied beginner phrases in Portuguese, German, and Croatian while working in and exploring other cultures.",
+        "Bartended, DJed, and worked the front desk of a hostel in Sintra, Portugal.",
+        "Took orders in German, cooked, cleaned, and planned and executed team bonding meetings for a Syrian-refugee-focused food company.",
+        "Collaborated on a high level with international team members of different experience levels.",
+        "Taught English online and in person for clients with a wide range of ages, English comprehension, and needs."
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Au Pair Paris",
+      "title": "Au Pair",
+      "start": "2019",
+      "end": "2020",
+      "date": "2019 - 2020",
+      "summary": "While working as an online and in-person English teacher, I was an Au Pair for a family with three children. Practicing time management, interpersonal and guidance skills, and building strong relationships with the children under my care. I spent my free time in this period learning about and exploring Paris while solidifying my use of the French language. This position required me to consistently practice creativity and patience. This is where I spent the initial lockdowns of COVID-19 and had to adapt my care accordingly!",
+      "accomplishments": [
+        "Cared for, cooked, chaperoned, and tutored three children (ages 8 - 13).",
+        "Studied data analysis, worked on my side business of teaching, and explored Paris and French culture when not caring for the family.",
+        "Managed appointments, classes, and care scheduling with the host family.",
+        "Pushed my capacities of interpersonal skills, communication, and building relationships while strongly supporting the education and happiness of of the children.",
+        "Persisted in caring for, and creating new routines for the children through COVID lockdowns."
+      ]
+    },
+    {
+      "type": "education",
+      "company": "Drake University",
+      "title": "B.S.B.A. Economics and Intenational Business",
+      "start": "2015",
+      "end": "2019",
+      "date": "2015 - 2019",
+      "summary": "I received my bachelors in business administration, majoring in Economics and International Business.",
+      "accomplishments": [
+        "Additional coursework in Neuroscience, Psychology, and Leadership.",
+        "Studied French to an intermediate level.",
+        "Active in student government sponsored initiatives early on.",
+        "Leadership intensive coursework in Nassau, Bahamas."
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Apple Store",
+      "title": "Technical Specialist",
+      "start": "2018",
+      "end": "2019",
+      "date": "2018 - 2019",
+      "summary": "This position was a big learning experience in my work with technology. It also gave me extensive customer service and team training during onboarding and throughout employment.",
+      "accomplishments": [
+        "Trained and practiced intense customer service skills, team feedback and communication tactics, and clear reporting to ensure smooth workflows.",
+        "Utilized documentation as troubleshooting and repair references.",
+        "Troubleshot and diagnosed customer devices, solving issues through least-invasive actions."
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Aeropostale",
+      "title": "Shift Lead",
+      "start": "2018",
+      "end": "2018",
+      "date": "2018",
+      "summary": "Managed the sales floor and inventory processing of the clothing store.",
+      "accomplishments": [
+        "Managed sales representatives on the floor.",
+        "Counted out tills and submitted basic accounting information from data collected through shift.",
+        "Processed, recorded, and displayed inventory.",
+        "Practiced sales and customer service tactics.",
+        "Opened or closed the store."
+      ]
+    },
+    {
+      "type": "education",
+      "company": "American Business School of Paris",
+      "title": "Student",
+      "start": "2018",
+      "end": "2018",
+      "date": "2018",
+      "summary": "I was fortunate to spend a semester abroad in Paris, France, focusing on international business and economics as well as the French language.",
+      "accomplishments": [
+        "Intensely studied French Language, History, and Culture.",
+        "Excursions and trips to art museums and historically significant sites across France.",
+        "Coursework in macro- and microecoonomic analysis and international business (law, finance, operations, supply chains, and culture)."
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Drake University",
+      "title": "Resident Assistant",
+      "start": "2016",
+      "end": "2017",
+      "date": "2016 - 2017",
+      "summary": "I was privileged to work with a highly collaborative team. This position required intense training and emotionally taxing readiness and service.",
+      "accomplishments": [
+        "Oversaw check-in and check-out of guests and equipment, gave residents mail, and trained on privacy and security at the Front Desk of Residence Hall.",
+        "Trained in emergency management, emotional and crisis intervention, peer mediation, and security enforcement.",
+        "Documented all student emergencies, building issues, or events necessary for Resident staff to know.",
+        "Mediated problems and offered emotional support to residents.",
+        "Hosted and planned educational and social events with partnered organizations."
+      ]
+    },
+    {
+      "type": "work",
+      "company": "ChenMed",
+      "title": "Business Intern",
+      "start": "2016",
+      "end": "2016",
+      "date": "2016",
+      "summary": "Supported data organization and useability for the market CFO, COO, and facility managers to help them manage financial statement reporting, customer/patient tracking, and network management.",
+      "accomplishments": [
+        "Cleaned and manipulated financial data for the Chicago market CFO.",
+        "Gathered and reported data of in-network doctors' offices.",
+        "Fixed client a transactional database in a high-pressure, 'emergency' situation.",
+        "Performed tasks at request of facility managers, market CFO, Network Director, and market COO."
+      ]
+    }
+  ]
+}

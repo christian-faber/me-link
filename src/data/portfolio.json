@@ -1,0 +1,100 @@
+{
+  "portfolio": [
+    {
+      "title": "Community Pursuit",
+      "photoFileLocation": "logo-color.svg",
+      "mission": "To contribute technical and organizational services to projects, organizations, and initiatives that contribute to the well-being of a community.",
+      "description": "I started Community Pursuit to practice my technical skills and apply them to community-centric projects.",
+      "link": "www.communitypursuit.com",
+      "repository": "www.communitypursuit.com",
+      "imgBackgroundStyle": "",
+      "tools": [
+        {
+          "name": "Google Sites",
+          "badge-location": "google_sites_logo"
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
+    },
+    {
+      "title": "KauaiForward",
+      "photoFileLocation": "logo_kupaakauai.png",
+      "mission": "To connect local orgs with grant opportunities and information about the community.",
+      "description": "KauaiForward displays the grant opportunities offered by the County of Kauai's Office of Economic Development. It also informs the public of OED's ongoing programs, resources put together for different audiences, and updates from partner organizations.",
+      "link": "www.kauaiforward.com",
+      "repository": "www.kauaiforward.com",
+      "imgBackgroundStyle": "bg-white p-24",
+      "tools": [
+        {
+          "name": "WordPress",
+          "badge-location": "wordpress_logo"
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
+    },
+    {
+      "title": "Economic Dashboard",
+      "photoFileLocation": "laborDashboard.png",
+      "mission": "To track the economic conditions of Kauai using state publicized data.",
+      "description": "Using Census data, information released from the Department of Business, Economic Development, and Tourism (DBEDT)'s data warehouses, and other data sets, I created data flows and procedures to update the dashboard and watch Kauai-specific indicators. The visuals in this dashboard can be altered and analyzed in other cases as well.",
+      "link": "www.kauaiforward.com/resources",
+      "repository": "https://public.tableau.com/views/KauaiEconomicData/Population?:language=en-US&:display_count=n&:origin=viz_share_link",
+      "imgBackgroundStyle": "",
+      "tools": [
+        {
+          "name": "Tableau",
+          "badge-location": "tableau_logo"
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
+    },
+    {
+      "title": "I Am Weekend",
+      "photoFileLocation": "iAm.jpg",
+      "mission": "To bring together teens and young adults to encourage creative entrepreneural solutions to real-life problems.",
+      "description": "I Am Weekend was a workshop spearheaded by Kauai Planning and Action Alliance that partnered with the Small Business Development Center and local entrepreneurs. The workshop brought people of all ages together to create entrepreneurial solutions to local issues. The participants practiced teamwork, prototyping, and presenting. I worked on the planning committee, created and helped manage",
+      "link": "www.keikitocareer.org",
+      "repository": "",
+      "imgBackgroundStyle": "",
+      "tools": [
+        {
+          "name": "",
+          "badge-location": ""
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
+    },
+    {
+      "title": "Dev-Island",
+      "photoFileLocation": "logo_devisland.png",
+      "mission": "As my capstone project for the bootcamp, I developed an update of the org website.",
+      "description": "To finish off my Dev-Island bootcamp experience, I took on the challenge of developing their official website for my capstone project. This design is no longer their active site and can only be seen through my github repository.",
+      "link": "www.dev-island.org",
+      "repository": "www.github.com/christian-faber/dev-island.org",
+      "imgBackgroundStyle": "",
+      "tools": [
+        {
+          "name": "React.js",
+          "badge-location": "react_logo"
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
+    },
+    {
+      "title": "Planets App",
+      "photoFileLocation": "",
+      "mission": "To practice API useEffect, useState, and API fetches, I made a page that fetches information and updates according to each planet.",
+      "description": "This project was an assignment during the Dev-Island bootcamp that required connecting to data from an API. It was my favorite assingment from the bootcamp.",
+      "link": "https://github.com/christian-faber/dev-island-planets",
+      "repository": "https://github.com/christian-faber/dev-island-planets",
+      "imgBackgroundStyle": "",
+      "tools": [
+        {
+          "name": "React.js",
+          "badge-location": "react_logo"
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
+    }
+  ]
+}
