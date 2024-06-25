@@ -42,14 +42,6 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to="https://public.tableau.com/profile/your_username"
-            sx={{ padding: "16px" }}
-          >
-            <SiTableau />
-          </Button>
-          <Button
-            variant="contained"
-            component={Link}
             to="https://github.com/your_username"
             sx={{ padding: "16px" }}
           >
@@ -62,6 +54,14 @@ export const Header = () => {
             sx={{ padding: "16px" }}
           >
             <LinkedInIcon />
+          </Button>
+          <Button
+            variant="contained"
+            component={Link}
+            to="https://public.tableau.com/profile/your_username"
+            sx={{ padding: "16px" }}
+          >
+            <SiTableau />
           </Button>
         </Box>
         <Box
