@@ -20,7 +20,7 @@ export const Header = () => {
             p: 1,
             border: "1px solid grey",
             borderRadius: "50%",
-            bgcolor: "ivory",
+            bgcolor: "primary.main",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
