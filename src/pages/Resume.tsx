@@ -1,14 +1,19 @@
 import React from "react";
 import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineItem, { timelineItemClasses } from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-import Typography from "@mui/material/Typography";
-import FastfoodIcon from "@mui/icons-material/Fastfood";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+import LaptopIcon from "@mui/icons-material/Laptop";
+import ShowChartIcon from "@mui/icons-material/ShowChart";
+import AppleIcon from "@mui/icons-material/Apple";
+import SchoolIcon from "@mui/icons-material/School";
+import StorefrontIcon from "@mui/icons-material/Storefront";
+import PublicIcon from "@mui/icons-material/Public";
+import logoImage from "../assets/logo-noBG-noText.png";
+import ButtonBase from "@mui/material/ButtonBase";
 
 export const Resume = () => {
   return (
@@ -21,101 +26,113 @@ export const Resume = () => {
         borderRadius: "15px",
       }}
     >
-      <Timeline position="right">
+      <Timeline
+        sx={{
+          [`& .${timelineItemClasses.root}:before`]: {
+            flex: 0,
+            padding: 0,
+          },
+        }}
+      >
         <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="text.secondary"
-          >
-            <Typography variant="h6" component="span">
-              Community Pursuit
-            </Typography>
-            <Typography>Owner</Typography>
-          </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
             <TimelineDot>
-              <FastfoodIcon />
+              <img
+                src={logoImage}
+                alt="Logo"
+                style={{
+                  width: "24px",
+                  height: "24px",
+                }}
+              />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography>February 2022 - Present</Typography>
+          <TimelineContent>
+            <Typography>Community Pursuit</Typography>
+            <Typography sx={{ fontSize: "0.875rem", color: "darkgrey" }}>
+              Owner | Developer | Contractor
+            </Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="text.secondary"
-          >
-            <Typography>July 2023 - June 2024</Typography>
-          </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
             <TimelineDot>
-              <FastfoodIcon />
+              <LaptopIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span">
-              Dev-Island
+          <TimelineContent>
+            <Typography>Dev-Island</Typography>
+            <Typography sx={{ fontSize: "0.875rem", color: "darkgrey" }}>
+              Student | Instructor
             </Typography>
-            <Typography>Instructor</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="text.secondary"
-          >
-            <Typography>March 2022 - March 2023</Typography>
-          </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
             <TimelineDot>
-              <FastfoodIcon />
+              <ShowChartIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span">
-              Dev-Island
+          <TimelineContent>
+            <Typography>Office of Economic Development</Typography>
+            <Typography sx={{ fontSize: "0.875rem", color: "darkgrey" }}>
+              Data Viz & Analysis
             </Typography>
-            <Typography>Student</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="text.secondary"
-          >
-            <Typography>February 2021 - February 2022</Typography>
-          </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
             <TimelineDot>
-              <FastfoodIcon />
+              <PublicIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span">
-              Office of Economic Development
+          <TimelineContent>
+            <Typography>Working Abroad</Typography>
+            <Typography sx={{ fontSize: "0.875rem", color: "darkgrey" }}>
+              Teaching English | Tourism
             </Typography>
-            <Typography>Data Visualization and Analytics Specialist</Typography>
           </TimelineContent>
         </TimelineItem>
-
-        {/* Repeat for other positions */}
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot>
+              <SchoolIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography>Drake University</Typography>
+            <Typography sx={{ fontSize: "0.875rem", color: "darkgrey" }}>
+              Economics | International Business
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot>
+              <AppleIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography>Apple</Typography>
+            <Typography sx={{ fontSize: "0.875rem", color: "darkgrey" }}>
+              Technical Specialist
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot>
+              <StorefrontIcon />
+            </TimelineDot>
+          </TimelineSeparator>
+          <TimelineContent>Retail & Customer Service</TimelineContent>
+        </TimelineItem>
       </Timeline>
     </Box>
   );
