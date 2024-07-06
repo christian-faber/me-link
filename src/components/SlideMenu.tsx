@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
-import DashboardCustomizeIcon from "@mui/icons-material/DashboardCustomize";
+// import DashboardCustomizeIcon from "@mui/icons-material/DashboardCustomize";
 
 type SlideMenuProps = {
   setMenuOpen: (open: boolean) => void;
@@ -19,7 +19,7 @@ type SlideMenuProps = {
 export const SlideMenu: React.FC<SlideMenuProps> = ({ setMenuOpen }) => {
   return (
     <>
-      <Box sx={{ m: 4, display: "flex", justifyContent: "center" }}>
+      <Box sx={{ m: 5, display: "flex", justifyContent: "center" }}>
         <List>
           <ListItem>
             <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
@@ -54,7 +54,7 @@ export const SlideMenu: React.FC<SlideMenuProps> = ({ setMenuOpen }) => {
               </ListItemButton>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link
               to="/portfolio"
               style={{ textDecoration: "none", color: "inherit" }}
@@ -71,7 +71,7 @@ export const SlideMenu: React.FC<SlideMenuProps> = ({ setMenuOpen }) => {
                 />
               </ListItemButton>
             </Link>
-          </ListItem>
+          </ListItem> */}
         </List>
       </Box>
     </>

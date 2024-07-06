@@ -64,7 +64,14 @@ function App() {
           PaperProps={{ sx: { width: { sm: "66%", md: "33%" } } }}
         >
           <CloseIcon
-            sx={{ fontSize: 40, m: 1, position: "absolute", top: 2, right: 2 }}
+            sx={{
+              fontSize: 40,
+              m: 1,
+              position: "absolute",
+              top: 2,
+              right: 2,
+              zIndex: "2",
+            }}
             onClick={() => setMenuOpen(false)}
           />
           <SlideMenu setMenuOpen={setMenuOpen} />
@@ -72,7 +79,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          {/* <Route path="/portfolio" element={<Portfolio />} /> */}
         </Routes>
       </div>
     </ThemeProvider>
