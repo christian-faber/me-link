@@ -7,7 +7,6 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 import SlideMenu from "./components/SlideMenu";
 import { Resume } from "./pages/Resume";
-import Portfolio from "./pages/Portfolio";
 
 const theme = createTheme({
   palette: {
