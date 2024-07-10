@@ -42,7 +42,7 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to="https://github.com/your_username"
+            to="https://github.com/christian-faber"
             sx={{ padding: "16px" }}
           >
             <GitHubIcon />
@@ -50,7 +50,7 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to="https://linkedin.com/in/your_username"
+            to="https://www.linkedin.com/in/christianfaber/"
             sx={{ padding: "16px" }}
           >
             <LinkedInIcon />
@@ -58,7 +58,7 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to="https://public.tableau.com/profile/your_username"
+            to="https://public.tableau.com/app/profile/christian1024"
             sx={{ padding: "16px" }}
           >
             <SiTableau />
@@ -74,7 +74,7 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to="https://public.tableau.com/profile/your_username"
+            to={`tel:${import.meta.env.VITE_PHONE_NUMBER}`}
             sx={{ padding: "16px" }}
           >
             <PhoneIcon />
@@ -82,7 +82,7 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to="https://github.com/your_username"
+            to={`mailto:${import.meta.env.VITE_EMAI}`}
             sx={{ padding: "16px" }}
           >
             <MailIcon />
@@ -90,7 +90,7 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to="https://linkedin.com/in/your_username"
+            to="https://calendar.google.com/calendar/selfsched?sstoken=UU15OWl1ejhTS2tKfGRlZmF1bHR8NTczODc3OWM0NDExYzU3YTY0YjAzZmVkZWI2ZTJlOWE"
             sx={{ padding: "16px" }}
           >
             <EventIcon />
