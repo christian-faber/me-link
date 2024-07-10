@@ -82,7 +82,7 @@ export const Header = () => {
           <Button
             variant="contained"
             component={Link}
-            to={`mailto:${import.meta.env.VITE_EMAI}`}
+            to={`mailto:${import.meta.env.VITE_EMAIL}`}
             sx={{ padding: "16px" }}
           >
             <MailIcon />
